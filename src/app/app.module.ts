@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './components/pages/HomeComponent/home-component.component';
-import { HomeComponent } from './components/pages/HomeComponent/home.component';
 import { ProductItemComponent } from './components/shared/product-item/product-item.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 
@@ -12,7 +11,6 @@ import { HeaderComponent } from './components/shared/header/header.component';
   declarations: [
     AppComponent,
     HomeComponentComponent,
-    HomeComponent,
     ProductItemComponent,
     HeaderComponent
   ],
