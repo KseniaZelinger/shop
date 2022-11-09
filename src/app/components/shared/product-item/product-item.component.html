@@ -1,13 +1,18 @@
 <div class="product">
-    <img src="https://i.imgur.com/8mGmWjE.jpeg" alt="">
-    <span class="name">Платье комбинация</span>
+    <img [src]="product.image" alt="">
+    <span class="name">{{ product.name }}</span>
     <div class="price-weight">
-        <span class="price">5990p.</span>
+        <span class="price">{{ product.price }}p.</span>
     </div>
+
     <div class="description">
-        Платье-комбинация из вискозного плотного, роскошного атласа. Подчеркивает грудь и превосходно смотрится как с
-        жакетом, так и с свитером свободного кроя
+        {{ product.description }}
     </div>
+
+    <div class="color">
+        {{ product.color }}
+    </div>
+
     <div class="cart-actions">
         <button>+</button>
         <input type="number">

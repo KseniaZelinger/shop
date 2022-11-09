@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './components/pages/HomeComponent/home-component.component';
 import { ProductItemComponent } from './components/shared/product-item/product-item.component';
 import { HeaderComponent } from './components/shared/header/header.component';
+import { ProductService } from './services/product-service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
