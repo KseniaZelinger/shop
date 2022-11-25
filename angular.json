@@ -6,7 +6,7 @@
     "shop": {
       "projectType": "application",
       "schematics": {
-        "schematics": {
+        "schematics/an": {
           "@schematics/angular:component": {
             "skipTests": true
           },

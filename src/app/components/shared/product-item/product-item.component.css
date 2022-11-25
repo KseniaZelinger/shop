@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(197, 197, 197);
-    width: 220px;
+    width: 240px;
+    height: 698px;
     gap: 10px;
     padding: 10px;
     box-shadow: 1px 3px 10px rgb(197, 197, 197);
@@ -26,18 +27,24 @@ span.name {
 }
 
 span.price {
-    font-size: 20 px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(52, 48, 48);
+
 }
 
 span.weight {
+    display: flex;
     font-size: 14px;
     color: rgb(59, 57, 57);
+
 }
 
 .description {
     text-align: center;
     font-size: 14px;
-    color: rgb(213, 212, 212);
+    color: rgb(122, 113, 113);
+    flex: 1 1 auto;
 }
 
 .cart-actions {
@@ -49,6 +56,10 @@ span.weight {
 }
 
 .cart-actions>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px !important;
     width: 36px;
     background-color: rgb(198, 198, 198);
     outline: none;
@@ -61,7 +72,7 @@ span.weight {
 }
 
 .cart-actions>button:hover {
-    background-color: beige;
+    background-color: rgb(253, 130, 16);
 }
 
 .cart-actions>input {
@@ -77,14 +88,15 @@ span.weight {
 
 .add-to-cart>a {
     width: 100%;
-    background-color: rgb(219, 180, 116);
+    background-color: rgb(241, 238, 233);
     color: rgb(39, 36, 36);
-    padding: 10 px 20px;
+    padding: 10 px;
     border-radius: 4px;
-    transition: all .2 ease-in-out;
+    transition: all .15 ease-in-out;
     text-align: center;
 }
 
 .add-to-cart>a:hover {
-    background-color: beige;
+    cursor: pointer;
+    background-color: rgb(253, 130, 16) !important;
 }
